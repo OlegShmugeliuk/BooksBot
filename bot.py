@@ -14,7 +14,6 @@ def start(update: Update, context: CallbackContext) -> None:
     
     update.message.reply_text('Виберіть мову / Choose your language:', reply_markup=reply_markup)
 
-
 def echo(update: Update, context: CallbackContext) -> None:
     message_text = update.message.text
 
